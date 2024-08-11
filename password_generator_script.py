@@ -23,7 +23,7 @@ def generate_password(length, use_symbols=False, use_advanced_symbols=False, see
     return password
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate a random password.")
+    parser = argparse.ArgumentParser(description="Generate a random password")
     parser.add_argument("--length", default=8, type=int, help="Length of the password, defaults to 8")
     parser.add_argument("--seed", type=int, help="Seed for random number generation")
     parser.add_argument("--symbols", action="store_true", help="Include basic symbols in the password")
