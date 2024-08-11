@@ -10,3 +10,5 @@ Below is a list of the flags and their descriptions in order to modify features 
     --symbols           Include basic symbols in the password
     --advanced-symbols  Include advanced symbols in the password
 ```
+## Dependencies
+numpy
