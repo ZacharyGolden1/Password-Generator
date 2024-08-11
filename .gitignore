@@ -1,2 +1,5 @@
 /pg_packages/
+/__pycache__/
 todo.txt
+change_log.txt
+one_syllable_nouns.pkl
