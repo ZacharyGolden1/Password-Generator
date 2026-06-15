@@ -1,15 +1,15 @@
 import numpy as np
 import string
-import nltk
 import pickle
 import os
-from nltk.corpus import words
-from nltk.corpus import cmudict
-from nltk.corpus import words as nltk_words
 
 FILE_NAME = "one_syllable_nouns.pkl"
 
 def create_one_syllable_nouns_list():
+    import nltk
+    from nltk.corpus import cmudict
+    from nltk.corpus import words as nltk_words
+
     nltk.download('cmudict', quiet=True)
     nltk.download('words', quiet=True)
     nltk.download('averaged_perceptron_tagger', quiet=True)
